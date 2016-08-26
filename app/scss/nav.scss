@@ -20,8 +20,7 @@
                 margin-right: 10px;
             }
         }
-        &.active,
-        &:hover{
+        &.active{
             a{
                 background-color: $light-grey;
                 border-right: 2px solid $blue-darken;
@@ -58,7 +57,7 @@
         &:hover{
             a{
                 background-color: transparent;
-                border-color: $blue-lighten;
+                border-right: 2px solid $blue-lighten;
                 &:after{
                     border-color: transparent transparent transparent $blue-lighten;
                 }

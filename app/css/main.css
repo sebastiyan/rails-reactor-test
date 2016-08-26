@@ -3373,13 +3373,13 @@ textarea.input-control {
         background-color: #1396e2;
         border-radius: 50%;
         margin-right: 10px; }
-    .nav-pills li.active a, .nav-pills li:hover a {
+    .nav-pills li.active a {
       background-color: #f3f3f3;
       border-right: 2px solid #073855;
       -webkit-box-shadow: 0px 1px 2px 0px rgba(204, 204, 204, 0.75);
       -moz-box-shadow: 0px 1px 2px 0px rgba(204, 204, 204, 0.75);
       box-shadow: 0px 1px 2px 0px rgba(204, 204, 204, 0.75); }
-      .nav-pills li.active a:after, .nav-pills li:hover a:after {
+      .nav-pills li.active a:after {
         content: '';
         display: block;
         position: absolute;
@@ -3400,7 +3400,7 @@ textarea.input-control {
           border-color: transparent transparent transparent #073855; }
     .nav-pills li:hover a {
       background-color: transparent;
-      border-color: #1396e2; }
+      border-right: 2px solid #1396e2; }
       .nav-pills li:hover a:after {
         border-color: transparent transparent transparent #1396e2; }
 
