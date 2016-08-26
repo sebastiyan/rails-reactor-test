@@ -1,0 +1,55 @@
+// styles for demonstration page
+section{
+    margin-bottom: 70px;
+}
+.example-color{
+    @include clearfix;
+    * {
+        height: 80px;
+    }
+}
+.example-color-card{
+    border: 1px solid $light-grey;
+    padding-left: 20px;
+}
+.example-title{
+    font-size: 28px;
+    color: #444444;
+    font-weight: 300;
+    border-bottom: 1px solid $light-grey;
+    padding-bottom: 15px;
+    .num{
+        font-size: 16px;
+        color: #aaaaaa;
+        padding-right: 10px;
+    }
+}
+.example-headlines{
+    h1, .h1,
+    h2, .h2,
+    h3, .h3,
+    h4, .h4,
+    h5, .h5,
+    h6, .h6{
+        padding: 0;
+        margin: 0;
+    }
+}
+.example-card{
+    .card-image{
+        position: relative;
+        &:after{
+            content: 'Featured';
+            position: absolute;
+            font-size: 26px;
+            font-weight: 700;
+            color: #aaaaaa;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+.example-sizes{
+    margin-left: 15px;
+}

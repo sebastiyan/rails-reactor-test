@@ -1,0 +1,95 @@
+.btn{
+    display: inline-block;
+    height: 50px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 10px 20px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 0;
+    border: 1px solid transparent;
+    outline: none;
+    color: $dark-grey-darken;
+    background-color: $light-grey;
+    text-decoration: none;
+    box-shadow: 0;
+    &:hover,
+    &.hover{
+        color: $blue;
+        border-color: $blue;
+    }
+    &:active,
+    &.active{
+        color: $blue-darken;
+        border-color: $blue-darken;
+    }
+
+    &.btn-primary{
+        color: #fff;
+        background-color: $blue-lighten;
+        border-color: $blue-lighten;
+        &:hover,
+        &.hover{
+            background-color: $blue;
+            border-color: $blue;
+        }
+        &:active,
+        &.active{
+            background-color: $blue-darken;
+            border-color: $blue-darken;
+        }
+    }
+
+    &.btn-default{
+        color: $blue-lighten;
+        background-color: transparent;
+        border-color: $blue-lighten;
+        &:hover,
+        &.hover{
+            color: $blue;
+            border-color: $blue;
+            background-color: transparent;
+        }
+        &:active,
+        &.active{
+            color: $blue-darken;
+            border-color: $blue-darken;
+            background-color: transparent;
+        }
+    }
+
+    // sizes
+    &.btn-lg{
+        min-width: 280px;
+        height: 60px;
+        line-height: 1.5;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    &.btn-md{
+        min-width: 220px;
+        height: 50px;
+        font-size: 18px;
+        line-height: 1.5;
+        padding: 10px 20px;
+    }
+    &.btn-sm{
+        min-width: 140px;
+        height: 25px;
+        line-height: 1.5;
+        padding: 2px 11px;
+        font-size: 14px;
+    }
+}
+
+
+

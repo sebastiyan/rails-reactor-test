@@ -1,0 +1,55 @@
+$info-text: #1396e2;
+$info-bg: #e7f4fc;
+
+$success-text: #76bd22;
+$success-bg: #f1f8e8;
+
+$danger-text: #f63440;
+$danger-bg: #feeaec;
+
+.alert{
+    font-size: 16px;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    position: relative;
+    .close{
+        position: absolute;
+        cursor: pointer;
+        right: 13px;
+        top: 50%;
+        margin-top: -10px;
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        border: 1px solid #000;
+        border-radius: 50%;
+        vertical-align: middle;
+        &:before{
+            vertical-align: sub;
+            padding-left: 2px;
+        }
+    }
+    &-info{
+        background-color: $info-bg;
+        color: $info-text;
+        .close{
+            border-color: $info-text;
+        }
+    }
+    &-success{
+        background-color: $success-bg;
+        color: $success-text;
+        .close{
+            border-color: $success-text;
+        }
+    }
+    &-danger{
+        background-color: $danger-bg;
+        color: $danger-text;
+        .close{
+            border-color: $danger-text;
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.input-control{
+    display: block;
+    width: 100%;
+    height: 42px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 0;
+    outline: none;
+    background-color: $light-grey;
+    -webkit-box-shadow: inset 1px 2px 2px 0px rgba(153,153,153,0.75);
+    -moz-box-shadow: inset 1px 2px 2px 0px rgba(153,153,153,0.75);
+    box-shadow: inset 1px 2px 2px 0px rgba(153,153,153,0.75);
+    &:focus{
+        color: $blue-lighten;
+    }
+}
+textarea.input-control{
+    height: auto;
+    resize: none;
+}
+
+
+.input-group{
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    .input-control{
+        display: table-cell;
+        position: relative;
+        z-index: 2;
+        float: left;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .input-group-btn{
+        display: table-cell;
+        font-size: 0;
+        width: 1%;
+        white-space: nowrap;
+        vertical-align: middle;
+        .btn{
+            height: 42px;
+            line-height: 42px;
+            min-width: 42px;
+            padding: 0 8px;
+        }
+    }
+}
