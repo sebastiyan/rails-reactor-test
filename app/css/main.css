@@ -3248,8 +3248,7 @@ ul, ol {
     border-radius: 50%;
     vertical-align: middle; }
     .alert .close:before {
-      vertical-align: sub;
-      padding-left: 2px; }
+      vertical-align: sub; }
   .alert-info {
     background-color: #e7f4fc;
     color: #1396e2; }
